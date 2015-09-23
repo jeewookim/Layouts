@@ -32,4 +32,36 @@
         android:layout_height="wrap_content"
         android:id = "@+id/textView"/>
 
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop = "true"
+        android:background = "@color/red"
+        android:id = "@+id/topLeft"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom = "true"
+        android:background = "@color/yellow"
+        android:id = "@+id/bottomLeft"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop = "true"
+        android:background = "@color/blue"
+        android:id = "@+id/topRight"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom = "true"
+        android:background = "@color/purple"
+        android:id = "@+id/bottomRight"/>
+
 </RelativeLayout>
